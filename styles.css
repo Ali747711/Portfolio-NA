@@ -117,6 +117,15 @@ nav ul li a:hover {
     align-items: center;
 }
 
+.profile-photo {
+    position: relative;
+    z-index: 1;
+    max-height: 400px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
 .hero-text {
     width: 60%;
     padding-right: 40px;
