@@ -10,34 +10,150 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="content-card">
-            <header>
-                <div class="logo">Your Name</div>
-                <nav>
-                    <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contacts">Contacts</a></li>
-                    </ul>
-                </nav>
-            </header>
+    <div class="background-container">
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+    </div>
+    
+    <div class="main-container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="content-card">
+                <header>
+                    <div class="logo">Your Name</div>
+                    <nav>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#certificates">Certificates</a></li>
+                            <li><a href="#achievements">Achievements</a></li>
+                            <li><a href="#contacts">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </header>
 
-            <section class="hero">
-                <div class="hero-text">
-                    <div class="profession">UI/UX DESIGNER</div>
-                    <h1>Hello, my name is<br>Your Name</h1>
-                    <p>Short text with details about you, what you do or your professional career. You can add more information on the about page.</p>
-                    <div class="cta-buttons">
-                        <a href="#projects" class="btn primary">Projects</a>
-                        <a href="https://linkedin.com/in/yourprofile" class="btn secondary">LinkedIn</a>
+                <div class="hero">
+                    <div class="hero-text">
+                        <div class="profession">UI/UX DESIGNER</div>
+                        <h1>Hello, my name is<br>Your Name</h1>
+                        <p>Short text with details about you, what you do or your professional career. You can add more information on the about page.</p>
+                        <div class="cta-buttons">
+                            <a href="#projects" class="btn primary">Projects</a>
+                            <a href="https://linkedin.com/in/yourprofile" class="btn secondary">LinkedIn</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="yellow-blob"></div>
                     </div>
                 </div>
-                <div class="hero-image">
-                    <!-- You'll place your image here -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="content-card">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <h3>Project One</h3>
+                        <p>Description of your first project. What technologies you used, what problem you solved.</p>
+                        <a href="#" class="btn primary">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <h3>Project Two</h3>
+                        <p>Description of your second project. What technologies you used, what problem you solved.</p>
+                        <a href="#" class="btn primary">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <h3>Project Three</h3>
+                        <p>Description of your third project. What technologies you used, what problem you solved.</p>
+                        <a href="#" class="btn primary">View Project</a>
+                    </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="section">
+            <div class="content-card">
+                <h2>Certificates</h2>
+                <div class="certificates-list">
+                    <div class="certificate-item">
+                        <div class="certificate-icon">🏆</div>
+                        <div class="certificate-details">
+                            <h3>UI/UX Design Certificate</h3>
+                            <p>Issued by Design Institute, 2023</p>
+                            <p>Learned the fundamentals of user interface and experience design.</p>
+                        </div>
+                    </div>
+                    <div class="certificate-item">
+                        <div class="certificate-icon">🏆</div>
+                        <div class="certificate-details">
+                            <h3>Web Development Certificate</h3>
+                            <p>Issued by Coding Academy, 2022</p>
+                            <p>Completed comprehensive web development program covering HTML, CSS, and JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section">
+            <div class="content-card">
+                <h2>Achievements</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-number">1</div>
+                        <h3>Design Award</h3>
+                        <p>Won first place in the National Design Competition for innovative UI concept.</p>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-number">2</div>
+                        <h3>Featured Work</h3>
+                        <p>Project featured in Design Magazine's "Best Newcomers" issue.</p>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-number">3</div>
+                        <h3>Speaker</h3>
+                        <p>Invited as a speaker for Design Conference 2023.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contacts" class="section">
+            <div class="content-card">
+                <h2>Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <p>your.email@example.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>LinkedIn</h3>
+                            <p><a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>GitHub</h3>
+                            <p><a href="https://github.com/yourusername">github.com/yourusername</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2025 Your Name. All rights reserved.</p>
+        </footer>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
