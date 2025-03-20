@@ -159,7 +159,7 @@ nav ul li a:hover {
     margin: 0 auto;
     /* Remove any existing bottom margins that may be pushing it down */
     margin-bottom: 0;
-    top:20px;
+    top:45px;
 }
 
 .yellow-blob {
