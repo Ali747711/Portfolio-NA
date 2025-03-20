@@ -34,7 +34,7 @@ body {
     justify-content: center;
 }
 
-.profile-photo {
+.profile-pic {
     position: absolute;
     bottom: -40px; /* Adjust this value to control how far the image extends below */
     max-height: 450px; /* Adjust based on your image dimensions */
