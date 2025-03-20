@@ -36,7 +36,7 @@ body {
 
 .profile-photo {
     position: absolute;
-    bottom: -80px; /* Adjust this value to control how far the image extends below */
+    bottom: -40px; /* Adjust this value to control how far the image extends below */
     max-height: 450px; /* Adjust based on your image dimensions */
     z-index: 10; /* Ensures the image appears above other elements */
 }
