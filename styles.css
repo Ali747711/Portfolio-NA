@@ -147,6 +147,7 @@ nav ul li a:hover {
     min-height: 300px;
     display: flex;
     justify-content: center;
+    align-items: flex-end; /* Align items to the bottom */
 }
 
 .profile-photo {
@@ -156,6 +157,8 @@ nav ul li a:hover {
     object-fit: contain;
     display: block;
     margin: 0 auto;
+    /* Remove any existing bottom margins that may be pushing it down */
+    margin-bottom: 0;
 }
 
 .yellow-blob {
